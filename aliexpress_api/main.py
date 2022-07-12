@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 
 REMOTE_FEED_URL = 'https://stripmag.ru/datafeed/p5s_full_stock.xml'
 OUR_FEED_URL = 'http://alitair.1gb.ru/Intim_Ali_allfids_2.xml'
+#your saving path
 SAVING_PATH = 'C:\\Users\\User\\Desktop\\work\\aliexpress_api\\data\\'
 
 
