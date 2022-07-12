@@ -1,5 +1,10 @@
 from PIL import Image
 
+#enter your src
+BILLET_SRC = "C:\\Users\\User\\Desktop\\work\\photo\\benefit.png"
+IMAGE_SRC = "C:\\Users\\User\\Desktop\\work\\photo\\image.jpg"
+RESULT_SRC = "C:\\Users\\User\\Desktop\\work\\photo\\result.jpg"
+
 def process_images(image , billet , result ):
     try:
         #open images
@@ -21,8 +26,4 @@ def process_images(image , billet , result ):
 
 
 if __name__ == '__main__':
-    #directory
-    billet_src = "C:\\Users\\User\\Desktop\\work\\photo\\benefit.png"
-    image_src = "C:\\Users\\User\\Desktop\\work\\photo\\image.jpg"
-    result_src = "C:\\Users\\User\\Desktop\\work\\photo\\result.jpg"
-    process_images(image_src, billet_src, result_src)
+    process_images(IMAGE_SRC, BILLET_SRC, RESULT_SRC)
